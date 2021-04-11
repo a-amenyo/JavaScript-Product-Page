@@ -1,0 +1,79 @@
+/* NavBar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    text-decoration: none;
+    /* border: 1px solid red; */
+    width: auto;
+    text-align: right;
+    margin: auto;
+    padding: 10px 10px 10px ;
+}
+li{
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+a{
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.navbar{
+    /* border: 1px solid yellow; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+#logo{
+    /* position: absolute; */
+    width: 10rem;
+    margin-top: 2px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+
+
+/* Search Box  */
+.search-box {
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    border: 2px solid #262626;
+    line-height: 20px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    background-color: whitesmoke;
+  }
+  .search-txt {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: whitesmoke;
+    width: 200px;
+    font-size: 10px;
+    padding: 5px 10px 5px 5px;
+  }
+  
+/* MAIN BODY**************************************************************** */
+.main-container{
+    height: 100vh;
+   /* background-color: red; */
+   display: grid;
+   grid-template-columns: 0.5fr 1fr 1fr;
+   
+}
+.main-container>div{
+    border: 1px solid white;
+}
