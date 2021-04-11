@@ -67,13 +67,17 @@ a{
   }
   
 /* MAIN BODY**************************************************************** */
-.main-container{
+#main-container{
     height: 100vh;
    /* background-color: red; */
    display: grid;
-   grid-template-columns: 0.5fr 1fr 1fr;
+   grid-template-columns: 0.5fr 1fr;
    
 }
-.main-container>div{
+/* .main-container>div{
     border: 1px solid white;
+} */
+
+.right-container{
+    background-color: red;
 }
