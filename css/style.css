@@ -31,7 +31,7 @@ a{
 
 .navbar{
     /* border: 1px solid yellow; */
-    position: sticky;
+    position: fixed;
     width: 100%;
     display: flex;
     background-color: whitesmoke;
@@ -86,7 +86,8 @@ a{
     padding: 0px;
     background-color: whitesmoke;
     place-items: center;
-    margin-bottom: 10px;
+    margin: 20px;
+    /* margin-bottom: 10px; */
     gap: 0.2rem;
     /* place-content: center;
     justify-content: center;
@@ -103,17 +104,25 @@ a{
 }
 h2{
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+.logo h2{
+    font-family: 'Source Sans Pro', sans-serif;
     margin-top: 10px;
     margin-left: 15px;
     font-size: 25px;
     text-align: center;
-
+    
 }
 
 .image-container {
     /* border: 1px solid yellow; */
     justify-items: center;
+    /* border-right: 5px solid grey; */
     margin: 10px;
+    padding: 20px;
     /* width: 500px; */
     margin-left: 40px;
 }
@@ -123,12 +132,11 @@ h2{
     cursor: pointer;
 }
 .prod-container{
-    /* border: 1px solid purple; */
+    border: 1px solid purple;
+    border-left: 3px solid grey;
     margin: 10px;
-    place-content: center;
-    justify-content: center;
-    align-content: center;
     padding: 20px;
+    height: auto;
 }
 #add-tocart{
     background-color: #1597bb;
@@ -146,6 +154,7 @@ h2{
 #add-tocart:hover{
     color: white;
     background-color: seagreen;
+    border-left:1px solid seagreen;
 }
 #remove{
     background-color: #1597bb;
@@ -164,5 +173,7 @@ h2{
 #remove:hover{
     color: white;
     background-color: red;
+    border-left: 1px solid red;
+    transition: ease-in-out;
 }
 

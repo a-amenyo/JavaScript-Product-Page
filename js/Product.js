@@ -8,7 +8,7 @@ class Product {
         this.productId = productId;
     }
 
-    //  Card for displaying
+    //  PRODUCT CARDS
     card() {
         let cardElement = document.createElement("div");
         cardElement.className = "main-container";
