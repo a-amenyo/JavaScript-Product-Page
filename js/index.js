@@ -51,8 +51,8 @@ removeItem.setAttribute("id", "remove");
 imageElement.src = "assets/item1.webp"; 
 imageElement.setAttribute("alt", "Image of product"); 
 
-wrapper.appendChild(cardElement);  
-cardElement.append(imageContainer, productDescription); 
+// wrapper.appendChild(cardElement);  
+// cardElement.append(imageContainer, productDescription); 
 imageContainer.appendChild(imageElement); 
 // adding description details to the descritpion div 
 descriptionContainer.append(productTitle, productDescription, stock, addToCart, removeItem);

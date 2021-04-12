@@ -64,40 +64,46 @@ a{
     border: none;
     background-color: whitesmoke;
     width: 200px;
-    font-size: 10px;
-     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 5px 10px 5px 5px;
   }
   
 /* MAIN BODY**************************************************************** */
 .wrapper{
-    height: 100vh;
+    height: auto;
    border: 1px solid red;
-   padding: 10px;
+   padding: 50px;
 }
 .main-container{
-    /* border: 1px solid green; */
+    border: 1px solid green;
+    border-radius: 5px;
     display: grid;
     box-shadow: 10px 5px 5px#999;
-    /* grid-template-rows: 1fr 1fr ; */
-    height: auto;
-    padding: 10px;
+    grid-template-columns: 1fr 2fr ;
+    grid-template-rows: 1fr;
+    padding: 0px;
     background-color: whitesmoke;
+    place-items: center;
+    margin-bottom: 10px;
+    gap: 0.2rem;
     /* place-content: center;
     justify-content: center;
     align-content: center; */
 }
+
  p{
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 10px;
     margin-left: 15px;
     font-size: 20px;
+    color: #151515;
 }
 h2{
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 10px;
     margin-left: 15px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 /* .main-container>div{
@@ -106,28 +112,26 @@ h2{
 
 .image-container {
     /* border: 1px solid yellow; */
-    height: auto;
-    display: flex;
-    width: auto;
-    justify-content: center;
-   
+    justify-items: center;
+    margin: 10px;
+    /* width: 500px; */
+    margin-left: 40px;
 }
 .image{
-    margin-left: 10px;
+    /* margin-left: 40px; */
     width: 250px;
-    place-items: center;
+    cursor: pointer;
 }
 .prod-container{
     /* border: 1px solid purple; */
-    margin-left: 25px;
+    /* margin-left: 25px; */
     place-content: center;
     justify-content: center;
     align-content: center;
-    height: auto;
-   
+    padding: 20px;
 }
 #add-tocart{
-    background-color: seagreen;
+    background-color: #1597bb;
     color: white;
     padding: 10px;
     margin-top: 10px;
@@ -141,9 +145,10 @@ h2{
 }
 #add-tocart:hover{
     color: white;
+    background-color: seagreen;
 }
 #remove{
-    background-color: red;
+    background-color: #1597bb;
     color: white;
     margin-left: 10px;
     padding: 10px;
@@ -155,4 +160,8 @@ h2{
     font-family: 'Source Sans Pro', sans-serif;
     border: none;
     font-size: 15px;
+}
+#remove:hover{
+    color: white;
+    background-color: red;
 }
