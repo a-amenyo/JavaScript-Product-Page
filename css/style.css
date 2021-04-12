@@ -20,16 +20,18 @@ li{
 }
 a{
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bitter', serif;
     margin-right: 10px;
     /* border: 1px solid red; */
     padding-right: 10px;
-    font-size: 13px;
+    color: #150e56;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .navbar{
     /* border: 1px solid yellow; */
-    position: relative;
+    position: sticky;
     width: 100%;
     display: flex;
     background-color: whitesmoke;
@@ -63,45 +65,64 @@ a{
     background-color: whitesmoke;
     width: 200px;
     font-size: 10px;
-    font-family: 'Poppins', sans-serif;
+      font-family: 'Bitter', serif;
     padding: 5px 10px 5px 5px;
   }
   
 /* MAIN BODY**************************************************************** */
 .wrapper{
     height: 100vh;
-   /* background-color: red; */
-   display: grid;
-   grid-template-columns:  1fr 1fr 0.5fr;
-   gap: 20px;
-   position: relative;
    border: 1px solid red;
+   padding: 10px;
 }
 .main-container{
     border: 1px solid green;
     display: grid;
     /* grid-template-rows: 1fr 1fr ; */
     height: auto;
+    gap: 10px;
+    /* place-content: center;
+    justify-content: center;
+    align-content: center; */
 }
  h2,  p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bitter', serif;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 /* .main-container>div{
-    border: 1px solid white;
+    border: 1px solid purple;
 } */
-.left-container{
-background-color: red;
-}
+
 .image-container {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: auto;
+    display: flex;
+    width: auto;
+    justify-content: center;
+   
 }
 .image{
-    margin-top: 10px ;
     margin-left: 10px;
     width: 250px;
+    place-items: center;
+}
+.prod-container{
+    border: 1px solid purple;
+    margin-left: 25px;
+    place-content: center;
+    justify-content: center;
+    align-content: center;
 }
 #add-tocart{
-    background-color: #d8e3e7;
-    
+    background-color: #5f939a;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+    font-family: 'Bitter', serif;
+    border: none;
 }

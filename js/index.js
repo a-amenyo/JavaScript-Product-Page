@@ -18,12 +18,20 @@ let productTitle = document.createElement('h2');
 productTitle.className = "prod-title"; 
 productTitle.innerText = "OUT OF OFFICE TRIPLE BLACK SHOES"; 
 // Product description 
-let productDescription = document. createElement("p");
+let productDescription = document.createElement("p");
 productDescription.className = "prod-desc";
 productDescription.innerText = `Black OOO sneakers are made for walking.
 It's well-known for its durability and simple look ;the signaature arrow on the side and Off-White™ logo on the back. 
 Also has a tonal rubber sole. 
-Black lace-up closure.`;
+Black lace-up closure.
+
+Price : GHS 500.0 `;
+
+// sTOCK
+let stock = document.createElement("p");
+stock.className = "prod-stock";
+stock.innerText = `Stock Available : 20 `;
+
 
 
 // Add to cart button 
@@ -42,7 +50,7 @@ wrapper.appendChild(cardElement);
 cardElement.append(imageContainer, productDescription); 
 imageContainer.appendChild(imageElement); 
 // adding description details to the descritpion div 
-descriptionContainer.append(productTitle, productDescription,btnElement);
+descriptionContainer.append(productTitle, productDescription, stock, btnElement);
 // And now appending all to the image container
 imageContainer.append(descriptionContainer);
 
