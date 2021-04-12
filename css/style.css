@@ -25,8 +25,8 @@ a{
     /* border: 1px solid red; */
     padding-right: 10px;
     color: #31326f;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 20px;
+    /* font-weight: bold; */
 }
 
 .navbar{
@@ -55,6 +55,7 @@ a{
     line-height: 20px;
     height: 30px;
     border-radius: 5px;
+    margin: 10px;
     padding: 0px 10px 0px 10px;
     background-color: whitesmoke;
   }
@@ -63,7 +64,7 @@ a{
     border-radius: 5px;
     border: none;
     background-color: whitesmoke;
-    width: 200px;
+    width: 170px;
     font-size: 15px;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 5px 10px 5px 5px;
@@ -72,11 +73,11 @@ a{
 /* MAIN BODY**************************************************************** */
 .wrapper{
     height: auto;
-   border: 1px solid red;
+   /* border: 1px solid red; */
    padding: 50px;
 }
 .main-container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     border-radius: 5px;
     display: grid;
     box-shadow: 10px 5px 5px#999;
@@ -98,17 +99,16 @@ a{
     margin-left: 15px;
     font-size: 20px;
     color: #151515;
+    
 }
 h2{
     font-family: 'Source Sans Pro', sans-serif;
     margin-top: 10px;
     margin-left: 15px;
     font-size: 25px;
+    text-align: center;
 
 }
-/* .main-container>div{
-    border: 1px solid purple;
-} */
 
 .image-container {
     /* border: 1px solid yellow; */
@@ -124,7 +124,7 @@ h2{
 }
 .prod-container{
     /* border: 1px solid purple; */
-    /* margin-left: 25px; */
+    margin: 10px;
     place-content: center;
     justify-content: center;
     align-content: center;
@@ -135,7 +135,7 @@ h2{
     color: white;
     padding: 10px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 250px;
     border-radius: 5px;
     cursor: pointer;
     align-content: center;
@@ -165,3 +165,4 @@ h2{
     color: white;
     background-color: red;
 }
+
