@@ -3,8 +3,8 @@
 let wrapper = document.querySelector(".wrapper"); 
 
 // Adding elements to the main container
-let cardElement = document.createElement("div"); 
-cardElement.className = "main-container"; 
+// let cardElement = document.createElement("div"); 
+// cardElement.className = "main-container"; 
 // Container for images
 let imageContainer = document.createElement('div'); 
 imageContainer.className = "image-container"; 
