@@ -27,7 +27,7 @@ class productItems extends Product{
             <h2 class="prod-title"> ${this.title}</h2>
             <p class="prod-desc">${this.description}</p>
             <p id ="price-tag">  GH₵ ${this.price}</p>
-            <p id="prod-stock"> Stock Available: ${this.stock}</p>
+            <p>Stock Available :</p> <p id="prod-stock">  ${this.stock}</p>
             <button id="add-tocart">Add to Cart</button>
             <button id="remove">Remove Item</button></div>
             </div>

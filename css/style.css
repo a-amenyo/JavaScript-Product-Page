@@ -185,6 +185,7 @@ h2{
     background-color: red;
     border-left: 1px solid red;
     transition: 0.5s;
+   
 }
 
 @media screen and (max-width: 830px){
