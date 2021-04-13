@@ -147,7 +147,7 @@ h2{
     height: auto;
   place-content: center;
 }
-#add-tocart{
+.add-tocart{
     background-color: #1597bb;
     color: white;
     padding: 10px;
@@ -160,13 +160,13 @@ h2{
     font-size: 15px;
     border: none;
 }
-#add-tocart:hover{
+.add-tocart:hover{
     color: white;
     background-color: seagreen;
     border-left:1px solid seagreen;
     transition: 0.5s;
 }
-#remove{
+.remove{
     background-color: #1597bb;
     color: white;
     margin-left: 10px;
@@ -180,7 +180,7 @@ h2{
     border: none;
     font-size: 15px;
 }
-#remove:hover{
+.remove:hover{
     color: white;
     background-color: red;
     border-left: 1px solid red;
