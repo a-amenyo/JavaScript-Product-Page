@@ -1,3 +1,5 @@
+let wrapper = document.querySelector(".wrapper");
+
 class Product {
     constructor(title, description, imgUrl, price, stock, productId) {
         this.price = price;
@@ -29,8 +31,11 @@ class Product {
 
 }
 
+// Inheritance 
 
-// Add to card card 
+
+
+// Add to cart card 
 let addCard = document.createElement("div");
 addCard.className = "add-card";
 addCard.innerHTML = `

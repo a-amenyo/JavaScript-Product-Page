@@ -14,12 +14,12 @@ Material: 10% Acrylic, 90% Polyester, 35% Cotton, 58% Polyamide, 42% Polyurethan
 const product3 = new Product(`"GEARED UP" BLACK SHORT SLEEVES T-SHIRT`,`Short sleeves T-Shirt. Crewneck collar. 
 Oversize fit.
 Available in all sizes.
-Material: 100% Cotton.` , "assets/item3.webp", "GHS 50.0", "Stock Available: 20", "prod1"); 
+Material: 100% Cotton.` , "assets/item5.jpg", "GHS 50.0", "Stock Available: 20", "prod1"); 
 
-// 4th Item ; KeyChain 
-const product4= new Product("HAND OFF KEY CHAIN",`Black key holder with "Off" hand logo. Keyring fastening.
+// 4th Item ; 
+const product4= new Product("ARROW EARRINGS",`Drop arrows earrings in gold-tone metal with green rectangular pendants. "HEXNUT" text engraved at post-stud fastening.
 
-Material: 100% metal 100% PVC.` , "assets/item4.webp", "GHS 45.0", "Stock Available: 20", "prod1"); 
+Material: 100% Brass` , "assets/item6.webp", "GHS 45.0", "Stock Available: 20", "prod1"); 
 
 let allProducts = [product1, product2, product3, product4];
 
