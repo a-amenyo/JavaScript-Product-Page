@@ -12,7 +12,7 @@ class Product{
 
 
 }
-
+// Applying inheritance 
 class productItems extends Product{
     constructor(title, description, imgUrl, price, stock, productId){
         super(title, description, imgUrl, price, stock, productId);
@@ -57,7 +57,7 @@ Oversize fit.
 Available in all sizes.
 Material: 100% Cotton.` , "assets/item5.jpg", 50.0,  20, "prod3"); 
 
-// 4th Item ; 
+// 4th Item ; Earrings
 const product4= new productItems("ARROW EARRINGS",`Drop arrows earrings in gold-tone metal with green rectangular pendants. "HEXNUT" text engraved at post-stud fastening.
 
 Material: 100% Brass` , "assets/item6.webp",45.0,  20, "prod4"); 
@@ -68,12 +68,6 @@ allProducts.map(loop => {
     wrapper.append(loop.card()); 
 
 })
-
-
-
-// Inheritance 
-
-
 
 // Add to cart card 
 let addCard = document.createElement("div");
