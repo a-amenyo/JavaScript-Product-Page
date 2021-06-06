@@ -1,0 +1,27 @@
+{
+  "name": "product_page",
+  "version": "1.0.0",
+  "description": "Using Javascript and html to create a product page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-amenyo/JavaScript-Product-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-amenyo/JavaScript-Product-Page/issues"
+  },
+  "homepage": "https://github.com/a-amenyo/JavaScript-Product-Page#readme",
+  "devDependencies": {
+    "cypress": "^7.4.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "dependencies": {
+    "mocha": "^8.4.0"
+  }
+}
